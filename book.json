@@ -1,0 +1,429 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "name": "One piece tome 1",
+      "series": "One piece",
+      "author": "Eiichirō Oda",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "manga",
+      "editor": "Glénat",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantastique"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 2,
+      "name": "One piece tome 2",
+      "series": "One piece",
+      "author": "Eiichirō Oda",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "manga",
+      "editor": "Glénat",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantastique"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 3,
+      "name": "One piece tome 3",
+      "series": "One piece",
+      "author": "Eiichirō Oda",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "manga",
+      "editor": "Glénat",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantastique"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 4,
+      "name": "Bleach tome 1",
+      "series": "Bleach",
+      "author": "Tite Kubo",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "manga",
+      "editor": "Glénat",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantastique"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 5,
+      "name": "GTO - Great Teacher Onizuka tome 1",
+      "series": "GTO - Great Teacher Onizuka",
+      "author": "Fujisawa Toru",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Comédie",
+        "Scool Life"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 6,
+      "name": "Harry Potter et la Chambre des secrets",
+      "series": "Harry Potter",
+      "author": "J. K. Rowling",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Roman",
+      "editor": "Folio junior",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 7,
+      "name": "Harry Potter et le Prisonnier d'Azkaban",
+      "series": "Harry Potter",
+      "author": "J. K. Rowling",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Roman",
+      "editor": "Folio junior",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 8,
+      "name": "Harry Potter et la Coupe de feu",
+      "series": "Harry Potter",
+      "author": "J. K. Rowling",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Roman",
+      "editor": "Folio junior",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 9,
+      "series": "Harry Potter",
+      "author": "J. K. Rowling",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Roman",
+      "editor": "Folio junior",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 10,
+      "series": "Harry Potter",
+      "author": "J. K. Rowling",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Roman",
+      "editor": "Folio junior",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 11,
+      "name": "Samurai origines tome 1 - Takeo",
+      "series": "Samurai Origines",
+      "author": "Jean-François Di Giorgio",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Bande dessinée",
+      "editor": "Soleil",
+      "category": [
+        "Aventure"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 12,
+      "name": "Samurai origines tome 2 - Le maître des encens",
+      "series": "Samurai Origines",
+      "author": "Jean-François Di Giorgio",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Bande dessinée",
+      "editor": "Soleil",
+      "category": [
+        "Aventure"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 13,
+      "name": "Samurai origines tome 3 - Eiko",
+      "series": "Samurai Origines",
+      "author": "Jean-François Di Giorgio",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Bande dessinée",
+      "editor": "Soleil",
+      "category": [
+        "Aventure"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 14,
+      "name": "Les légendaires tome 1 - la pierre de jovenia",
+      "series": "Les légendaires",
+      "author": "Patrick Sobral",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Bande dessinée",
+      "editor": "Delcourt",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 15,
+      "name": "Les légendaires tome 2 - le gardien",
+      "series": "Les légendaires",
+      "author": "Patrick Sobral",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Bande dessinée",
+      "editor": "Delcourt",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 16,
+      "name": "Je suis Iron Man",
+      "series": "Iron Man",
+      "author": "Collectif ",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Comics",
+      "editor": "Panini",
+      "category": [
+        "Super héros"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 17,
+      "name": "Iron-Man extremis",
+      "series": "Iron Man",
+      "author": "Warren Ellis",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Comics",
+      "editor": "Panini",
+      "category": [
+        "Super héros"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 18,
+      "name": "Batman !",
+      "series": "Batman",
+      "author": "Collectif",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Comics",
+      "editor": "USA",
+      "category": [
+        "Super héros"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 19,
+      "name": "Batman - imposter",
+      "series": "Batman",
+      "author": "Mattson Tomlin",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Comics",
+      "editor": "Urban Comics",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 20,
+      "name": "batman; joker",
+      "series": "Batman",
+      "author": "Brian Azzarello",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une description",
+      "style": "Comics",
+      "editor": "Panini",
+      "category": [
+        "Fantasy"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 30,
+      "name": "One piece tome 1",
+      "series": "One piece",
+      "author": "Eiichirō Oda",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "style": "manga",
+      "editor": "Glénat",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantastique"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 31,
+      "name": "One piece tome 1",
+      "series": "One piece",
+      "author": "Eiichirō Oda",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une ",
+      "style": "manga",
+      "editor": "Glénat",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantastique"
+      ],
+      "price": 5,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    },
+    {
+      "id": 32,
+      "name": "One piece tome 1",
+      "series": "One piece",
+      "author": "Eiichirō Oda",
+      "picture": "https://placekitten.com/g/500/500",
+      "description": "une ",
+      "style": "manga",
+      "editor": "Glénat",
+      "category": [
+        "Shōnen",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantastique"
+      ],
+      "price": 10,
+      "quantity": 5,
+      "score": 2,
+      "isbn": 123456789
+    }
+  ]
+}

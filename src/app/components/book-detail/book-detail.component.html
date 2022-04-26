@@ -1,0 +1,35 @@
+<h1 class="mt-5">{{book.name}}</h1>
+
+<div class="row mt-5">
+    <div class="col-1"></div>
+    <div class="col-4">
+        <img [src]="book.picture" alt="Picture">
+    </div>
+    <div class="col-1"></div>
+    <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                Auteur : <span>{{book.author}}</span>
+            </li>
+            <li class="list-group-item">
+                Style : <span>{{book.style}}</span>
+            </li>
+            <li class="list-group-item">
+                Description : <span>{{book.description}}</span>
+            </li>
+            <li class="list-group-item">
+                Prix : <span>{{book.price | currency : "EUR" : 'symbol' }} </span>
+            </li>
+            <li class="list-group-item">
+                Score : <span>{{book.score}}</span>
+            </li>
+            <div>
+                Quantité : <input type="number" [(ngModel)]="quantity" min="1"> 
+                <button class="btn btn-primary" >Ajouter au panier</button>
+            </div>
+            
+            <a class="btn btn-secondary mt-3" [routerLink]="['/books']">Retour</a>
+        </ul>
+    </div>
+</div>
+

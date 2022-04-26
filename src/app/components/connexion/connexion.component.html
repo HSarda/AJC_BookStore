@@ -1,0 +1,50 @@
+<div class="content">
+    <div class="row" style="transform: translateY(20%);">
+        <div class="offset-3 col-6">
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    <div class="card-title" style="text-align: center;">
+                        <h1>Connexion</h1>
+                    </div>
+                    <div class="card-text">
+                        <div *ngIf="warningMessage" class="alert alert-danger" role="alert">
+                            Votre email ou votre mot de passe n’est pas correct(e).
+                        </div>
+
+                        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input formControlName="email" [class.is-invalid]="email?.touched && email?.invalid"
+                                    type="email" class="form-control">
+                                <div *ngIf="email?.touched && email?.hasError('required')"
+                                    class="d-block invalid-feedback">
+                                    Please provide an Email.
+                                </div>
+                                <div *ngIf="email?.touched && email?.hasError('email')"
+                                    class="d-block invalid-feedback">
+                                    Email address is not valid
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input formControlName="password"
+                                    [class.is-invalid]="password?.touched && password?.invalid" type="password"
+                                    class="form-control">
+                                <div *ngIf="password?.touched && password?.hasError('required')"
+                                    class="d-block invalid-feedback">
+                                    Please provide a password.
+                                </div>
+                            </div>
+
+                            <div class="form-group form-button">
+                                <button class="btn btn-primary btn-block"><span> Connexion<span class="fas fa-arrow-right"></span> </span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

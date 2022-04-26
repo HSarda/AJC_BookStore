@@ -1,0 +1,27 @@
+
+<div class="card" style="width: 18rem;">
+    <img [src]="book.picture" class="card-img-top align-self-center" [alt]="book.name">
+    <div class="card-body">
+        <h5 class="card-title">{{book.name}}</h5>
+    </div>
+
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            Auteur : <span>{{book.author}}</span>
+        </li>
+        <li class="list-group-item">
+            Style : <span>{{book.style}}</span>
+        </li>
+        <li class="list-group-item">
+            Prix : <span>{{book.price | currency : "EUR" : 'symbol' }} </span>
+        </li>
+        <li class="list-group-item">
+            Score : <span>{{book.score}}</span>
+        </li>
+        <li class="list-group-item">
+            <a [routerLink]="['/books', book.id]">Afficher les détails</a>
+        </li>
+    </ul>
+    
+
+</div>

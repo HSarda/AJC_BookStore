@@ -1,0 +1,25 @@
+nav.navbar-brand{
+    color: #a8a803;
+    font-width: 600;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+    background-color: #2d2c2c;
+  }
+
+
+.dropdown-item {
+    color: white;
+}
+  
+
+.dropdown-item:hover{
+    color: black;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
