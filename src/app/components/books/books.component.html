@@ -1,12 +1,18 @@
 <div class="container">
     <div>
         Trier la liste par : 
-        <select [(ngModel)]="selectOrdre" (ngModelChange)="onChange($event)">
-            <!-- <option disabled selected>Select ...</option> -->
-            <option [ngValue]="i.value" *ngFor="let i of ordre">{{i.name}}</option>
+        <select class="form-control" id="selectOptions" [(ngModel)]="ngSelectOrder" (ngModelChange)="onChange($event)">
+            <option
+              *ngFor="let order of orders"
+              [selected]="order === ngSelectOrder"
+              [value]="order"
+            >
+              {{ order.name }}
+            </option>
         </select>
+        {{ngSelectOrder.value}}
     </div>
     <div class="row">
-        <app-book [book]="book" class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let book of bookList | bookTri : tri"x></app-book>
+        <app-book [book]="book" class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let book of bookList | bookTri : ngSelectOrder.value"></app-book>
     </div>
 </div>

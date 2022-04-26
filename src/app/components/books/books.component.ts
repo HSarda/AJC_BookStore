@@ -11,16 +11,18 @@ import { BooksService } from 'src/app/services/books.service';
 export class BooksComponent implements OnInit {
 
   bookList : Book[] = [];
-  ordre = [
+  orders = [
     {
-    name: "Prix croissant",
-    value: "ASC"
-  }, {
-    name: "Prix décroissant",
-    value: "DESC"
-  }
+      name: 'Prix croissant',
+      value: 'ASC',
+    },
+    {
+      name: 'Prix décroissant',
+      value: 'DESC',
+    },
   ];
-  selectOrdre="Select Option";
+
+  ngSelectOrder = this.orders[0];
   tri: string="";
   form!: FormGroup;
 
@@ -34,9 +36,9 @@ export class BooksComponent implements OnInit {
     console.log(this.form.value);
   }
 
-  onChange(device: string){
+  onChange(device: any){
     console.log(device);
-    this.tri=device;
+    console.log(JSON.stringify(device));
   }
 
 

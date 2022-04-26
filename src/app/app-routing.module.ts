@@ -6,12 +6,16 @@ import { BookDetailComponent } from './components/book-detail/book-detail.compon
 import { ConnexionComponent } from './components/connexion/connexion.component';
 import { PanierComponent } from './components/panier/panier.component';
 import { PaymentComponent } from './components/payment/payment.component';
+import { NewComponent } from './components/new/new.component';
+import { BestComponent } from './components/best/best.component';
 
 
 const routes: Routes = [
   {path: 'home',component: HomeComponent},
   {path: 'books',component: BooksComponent},
   {path:"connexion", component:ConnexionComponent},
+  {path:"best", component:BestComponent},
+  {path:"new", component:NewComponent},
   {path:"paiement", component:PaymentComponent},
   {path:"panier", component:PanierComponent},
   {path: 'books/:id',component: BookDetailComponent},

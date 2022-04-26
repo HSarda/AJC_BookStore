@@ -7,6 +7,7 @@ import { Book } from '../models/book';
 export class BookTriPipe implements PipeTransform {
 
   transform(values: Book[], order : string): Book[] {
+    console.log(order);
     if (order === 'DESC') {
       return values.sort((a: Book, b: Book) => b.price - a.price);
     } else {
